@@ -1,0 +1,63 @@
+{
+  "name": "react-compat",
+  "version": "0.0.1",
+  "description": "React components that are compatible across platforms.",
+  "main": "./src/index.js",
+  "files": [
+  ],
+  "keywords": [
+    "android",
+    "ios",
+    "jolt",
+    "react",
+    "react-native",
+    "react-native-web"
+  ],
+  "author": "Mark Miyashita <negativetwelve@gmail.com> (https://github.com/negativetwelve)",
+  "contributors": [
+    {
+      "name": "Mark Miyashita",
+      "email": "negativetwelve@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/negativetwelve/react-compat.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/negativetwelve/react-compat/issues"
+  },
+  "homepage": "https://github.com/negativetwelve/react-compat",
+  "engines": {},
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1",
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native": "^2.1.0",
+    "coveralls": "^2.13.1",
+    "eslint-config-jolt": "^1.0.2",
+    "jest-preset-jolt": "^1.0.1",
+    "nyc": "^11.1.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "jolt"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "lint": "eslint js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  }
+}
