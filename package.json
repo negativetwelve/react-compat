@@ -32,7 +32,7 @@
   "engines": {},
   "dependencies": {
     "react": "16.0.0-alpha.12",
-    "react-native": "0.47.1",
+    "react-native": "0.47.1"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
