@@ -4,6 +4,7 @@
   "description": "React components that are compatible across platforms.",
   "main": "./src/index.js",
   "files": [
+    "src"
   ],
   "keywords": [
     "android",
